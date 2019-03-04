@@ -8,4 +8,4 @@ Apenas digite python unizaf.py e ir escolhendo!
 Os modulos disponiveis atualmente são, 
 Brute-force FTP
 Brute-force SMTP (GMAIL)
-Logo será adicionado mais e wordlists de senhas utilizadas!
+Logo será adicionado mais wordlists de senhas utilizadas!

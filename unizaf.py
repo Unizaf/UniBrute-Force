@@ -4,8 +4,6 @@ import sys
 import re
 import os
 import smtplib
-from time import sleep
-from tqdm import tqdm
 
 print "Bem vindo ao Projeto-Unizaf"
 print "Feito por Zian25 | Codinome Zawien-Fox"

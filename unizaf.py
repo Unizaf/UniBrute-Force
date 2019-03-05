@@ -5,14 +5,18 @@ import re
 import os
 import smtplib
 
-print "Bem vindo ao Projeto-Unizaf"
-print "Feito por Zian25 | Codinome Zawien-Fox"
-print "Selecione uma opção"
-print "=========================="
-print "|   Brute-force FTP (1)  |"
-print "|   Brute-force SMTP (2) |"
-print "=========================="
-pedido = input('Selecione um modulo: ')
+while True:
+	print "Bem vindo ao Projeto-Unizaf"
+	print "Feito por Zian25 | Codinome Zawien-Fox"
+	print "Selecione uma opção"
+	print "=========================="
+	print "|   Brute-force FTP (1)  |"
+	print "|   Brute-force SMTP (2) |"
+	print "=========================="
+	pedido = input('Selecione um modulo: ')
+	if pedido == 1 or pedido == 2:
+	    break
+
 
 if pedido == 1:
     print "===================="

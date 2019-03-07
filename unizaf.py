@@ -15,6 +15,7 @@ while True:
 	print "=========================="
 	pedido = input('Selecione um modulo: ')
 	if pedido == 1 or pedido == 2:
+	    os.system("clear");
 	    break
 
 

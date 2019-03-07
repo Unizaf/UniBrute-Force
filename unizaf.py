@@ -6,7 +6,7 @@ import os
 import smtplib
 
 while True:
-	print "Bem vindo ao Projeto-Unizaf"
+	print "Bem vindo ao Projeto-Unizaf v1.1  "
 	print "Feito por Zian25 | Codinome Zawien-Fox"
 	print "Selecione uma opção"
 	print "=========================="

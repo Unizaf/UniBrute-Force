@@ -68,3 +68,5 @@ if pedido == 2:
 		print "[-] Sem sucesso:%s " %senha
 	except socket.error:
 		print "Não foi possivel conectar"
+	except KeyboardInterrupt:
+		print "Saindo"

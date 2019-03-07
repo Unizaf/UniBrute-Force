@@ -14,5 +14,5 @@ Brute-force SMTP (GMAIL)
 Logo será adicionado mais wordlists de senhas utilizadas!
 
 # Exoneração de responsabilidade
-Não sou responsavel atos feitos pela ferramenta, O seu objetivo é apenas para pentest em ambiente controlado e com permissão
+Não sou responsavel pelos atos feitos pela ferramenta, O seu objetivo é apenas para pentest em ambiente controlado e com permissão
 e para o aprendizado!

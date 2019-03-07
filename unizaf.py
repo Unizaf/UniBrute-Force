@@ -70,3 +70,4 @@ if pedido == 2:
 		print "Não foi possivel conectar"
 	except KeyboardInterrupt:
 		print "Saindo"
+		os.system("C^")

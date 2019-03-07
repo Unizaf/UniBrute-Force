@@ -17,6 +17,8 @@ while True:
 	if pedido == 1 or pedido == 2:
 	    os.system("clear");
 	    break
+	else:
+		os.system("clear");
 
 
 if pedido == 1:

@@ -95,7 +95,7 @@ if pedido == 2:
 						print "[+] Senha Encontrada:%s " %senha
 						break
 					except smtplib.SMTPAuthenticationError:
-						print ""
+						print "[-] Sem sucesso:%s " %senha"
 					
 					except socket.error:
 						print "Não foi possivel conectar"

@@ -9,8 +9,11 @@ Apenas digite python unizaf.py e ir escolhendo!
 
 # Modulos
 Os modulos disponiveis atualmente são, 
+
 Brute-force FTP
-Brute-force SMTP (GMAIL)
+
+Brute-force SMTP (GMAIL, HOTMAIL, YAHOO)
+
 Logo será adicionado mais wordlists de senhas utilizadas!
 
 # Exoneração de responsabilidade

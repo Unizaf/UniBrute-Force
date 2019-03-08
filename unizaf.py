@@ -28,7 +28,6 @@ if pedido == 1:
 	   print "===================="
 	   print "|  FORÇA-BRUTA FTP |"
 	   print "===================="
-	   print "Taxa de sucesso atualmente 26%"
 	   alvo = raw_input('Digite o ip alvo: ')
 	   usuario = raw_input('Digite o Usuario: ')
 	   file = open("ftpword.txt")

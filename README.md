@@ -25,4 +25,6 @@ Confira aqui as notas e novidades de atualização!
 
 8/03/19 >> Adicionado os modulos (Yahoo, e Hotmail)
 
+29/03/19 >> Foi relatado erro nos modulos, trabalhando para resolver 
+
 ??/??/?? >> Ferramenta de phishing

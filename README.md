@@ -5,8 +5,10 @@ Uma ferramenta simples de bruteforce feita em Python, contém wordlists que ser�
 A ferramenta é atualizada constantemente, sempre olhe aqui para verificar :)
 
 # Como usar?
-Apenas digite python unizaf.py e ir escolhendo!
-
+Apenas digite 
+``
+python unizaf.py
+``
 # Modulos
 Os modulos disponiveis atualmente são, 
 

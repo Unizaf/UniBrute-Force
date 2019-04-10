@@ -9,7 +9,7 @@ import platform
 
 while True:
 	os.system("clear")
-	print "Bem vindo ao Projeto-Unizaf V1.2"
+	print "Bem vindo ao Projeto-UniBrute-Force V1.2"
 	print  "Feito por Zian25 | Codinome Zawien-Fox"
 	print  "Selecione uma opção"
 	imprimir  "=========================="

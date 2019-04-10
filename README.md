@@ -1,5 +1,5 @@
 # Unizaf-Ferramenta-de-Bruteforce
-Uma ferramenta simples de bruteforce feita em Python, contém wordlists que serão atualizadas assim que possivel, Assim como o Projeto Unizaf será atualizado, suportando mais funções!
+Uma ferramenta simples de bruteforce feita em Python, contém wordlists que serão atualizadas assim que possivel, Assim como o Projeto UniBrute-Force será atualizado, suportando mais funções!
 
 # Aviso
 A ferramenta é atualizada constantemente, sempre olhe aqui para verificar :)

@@ -10,9 +10,9 @@ import platform
 while True:
 	os.system("clear")
 	print "Bem vindo ao Projeto-UniBrute-Force V1.2"
-	print  "Feito por Zian25 | Codinome Zawien-Fox"
-	print  "Selecione uma opção"
-	imprimir  "=========================="
+	print "Feito por Zian25 | Codinome Zawien-Fox"
+	print "Selecione uma opção"
+	print "=========================="
 	print "|   Brute-force FTP (1)  |"
 	print "|   Brute-force SMTP (2) |"
 	print "=========================="
